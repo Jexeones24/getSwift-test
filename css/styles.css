@@ -10,20 +10,15 @@ html, body{
   background-color: tomato;
 }
 
-.navbar-header{
-  font-weight: 10px;
-}
-
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
 
 #wrapper {
   margin-left:auto;
   margin-right:auto;
-  /*width:960px;*/
+  width: 100%;
+	margin: 0 auto;
 }
 
-#wtf {
+#sidenav {
   background-color: white;
 }
 
@@ -31,6 +26,7 @@ html, body{
 #container {
   height: 100%;
   width: 100%;
+	float: left;
 }
 
 .sidenav {
@@ -83,14 +79,36 @@ img {
 
   .sidenav {
     background-color: yellow;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
 
-@media (max-width: 22em) {
+@media (max-width: 50em) {
    body {
       font-size: 200%;
       padding: 0 1.5em;
       background-color: black;
     }
+
+}
+
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+  .sidenav {
+    background-color: yellow;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+  .sidenav {
+    background-color: yellow;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
