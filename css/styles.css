@@ -17,12 +17,30 @@ html, body{
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 450px}
 
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  /*width:960px;*/
+}
+
 #wtf {
-  background-color: lavender;
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px){
+
+/* CSS Styles */
+}
+
+
+@media (max-width: 22em) {
+   body {
+      font-size: .9em;
+      padding: 0 1.5em;
+    }
 }
 
 #container {
-  background-color: purple;
   height: 100%;
   width: 100%;
 }
@@ -32,21 +50,21 @@ html, body{
   padding-left: 20px;
   background-color: #f1f1f1;
   height: 100%;
+  overflow:auto;
 }
 
 div.card{
-  border: solid black 1px;
   border-radius: 4px;
-  background-color: white;
+  background-color: #DCDCDC;
   padding: 5px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 h4.card-title {
-  border: solid black 1px;
   border-radius: 3px;
   font-color: tomato;
+  background-color: white;
 }
 
 div.card-header {
