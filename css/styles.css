@@ -7,7 +7,7 @@ html, body{
   margin-bottom: 0;
   border-radius: 0;
   text-align: right;
-  background-color: tomato;
+  background-color: #EC7450;
 }
 
 
@@ -37,23 +37,84 @@ html, body{
   overflow:auto;
 }
 
+#search-bar input{
+  height: 48px;
+  margin-bottom: 23px;
+}
+
 div.card{
   border-radius: 4px;
   background-color: #DCDCDC;
-  padding: 5px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding: 2px;
+  margin-bottom: 0px;
+  color: #EC7450;
 }
 
-h4.card-title {
+div#card-menu{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #DCDCDC;
+  margin-bottom: 23px;
+  color: #EC7450;
+}
+
+div#card-drivers{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #DCDCDC;
+  margin-bottom: 23px;
+  color: #EC7450;
+}
+
+div.card-title {
   border-radius: 3px;
-  font-color: tomato;
+  font-color: #EC7450;
   background-color: white;
+  text-align: left;
+  padding-left: 3px;
+  height: auto;
+  overflow: hidden;
+}
+
+
+span#number {
+  color: grey;
+}
+
+span#en-route {
+  color: #EC7450;
+  padding-left: 50px;
+  font-weight: bold;
+  float: right;
+  padding-right: 3px;
+}
+
+span#warehouse {
+  color: #EC7450;
+  padding-right: 50px;
+  display: block;
+  float: left;
+}
+
+span#name {
+  color: #66FFb2;
+  padding-right: 50px;
+  font-weight: bold;
+  display: block;
+  float: left;
+}
+
+span#due-date {
+  color: #EC7450;
+  padding-right: 50px;
+  font-weight: bold;
+  display: block;
+  float: left;
 }
 
 div.card-header {
-  padding: 10px;
-  font-color: tomato;
+  padding: 5px;
+  font-color: #C37869;
 }
 
 img {
@@ -65,10 +126,6 @@ img {
   padding: 0;
 }
 
-@media only screen and (max-width: 768px){
-
-
-}
 
 @media screen and (min-width: 420px) {
   img {
@@ -78,7 +135,6 @@ img {
   }
 
   .sidenav {
-    background-color: yellow;
     max-width: 100%;
     max-height: 100%;
   }
@@ -89,7 +145,6 @@ img {
    body {
       font-size: 200%;
       padding: 0 1.5em;
-      background-color: black;
     }
 
 }
@@ -97,7 +152,6 @@ img {
 @media only screen  and (min-width : 1224px) {
 /* Styles */
   .sidenav {
-    background-color: yellow;
     max-width: 100%;
     max-height: 100%;
   }
@@ -107,7 +161,6 @@ img {
 @media only screen  and (min-width : 1824px) {
 /* Styles */
   .sidenav {
-    background-color: yellow;
     max-width: 100%;
     max-height: 100%;
   }

@@ -46,22 +46,22 @@
       <div class="row content">
         <div class="col-sm-2 sidenav" id="sidenav">
           <form action="">
-            <div class="form-group">
+            <div class="form-group" id="search-bar">
               <input type="search" class="form-control" placeholder="search">
             </div>
           </form>
-          <div class="card">
+          <div id="card-menu">
             <div class="card-body">
               <div class="card-inner">
                 <div class="card-header">
-                  Menu
+                  MENU
                 </div>
               </div>
             </div>
           </div>
 
 
-          <div class="card">
+          <div id="card-drivers">
             <div class="card-body">
               <div class="card-inner">
                 <div class="card-header">
@@ -70,9 +70,13 @@
 
                 <div class="card">
                   <div class="card-block">
-                    <h4 class="card-title">Josh Smith</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">AVAILABLE IN</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+
+                    <div>
+                      <span class="name">JOSH SMITH</span>
+                      <span class="card-title pull-right">AVAILABLE IN</span>
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-muted">1 jobs</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">19 minutes</h6>
                   </div>
                 </div>
               </div>
@@ -87,10 +91,14 @@
             </div>
             <div class="card">
               <div class="card-block">
-                <h4 class="card-title">2244308</h4>
-                <h6 class="card-subtitle mb-2 text-muted">NYC Warehouse</h6>
-                <h6 class="card-subtitle mb-2 text-muted">Jonathan Rosham</h6>
-                <h6 class="card-subtitle mb-2 text-muted">Due 10 Days ago</h6>
+                <div class="card-title">
+                  <span id="number">2244308</span>
+                  <span class="card-subtitle mb-2 text-muted" id="en-route">EN ROUTE</span>
+                  <span id="warehouse">NYC Warehouse</span>
+                  <span id="name">Jonathan Rosham</span>
+                  <span id="due-date">Due 10 Days ago</span>
+                </div>
+
               </div>
             </div>
           </div>
