@@ -46,7 +46,7 @@ div.card{
   border-radius: 4px;
   background-color: #DCDCDC;
   padding: 2px;
-  margin-bottom: 0px;
+  margin-bottom: 2px;
   color: #EC7450;
 }
 
@@ -80,6 +80,8 @@ span#driver-name {
   color: #EC7450;
   font-weight: bold;
   float: left;
+  padding-top: 8px;
+
 }
 
 span#available-in {
@@ -87,11 +89,15 @@ span#available-in {
   font-weight: bold;
   float: right;
   padding-right: 3px;
+  padding-top: 8px;
 }
 
 span#jobs {
-  
+  float:left;
+  clear:left;
   color: grey;
+  padding-bottom: 10px;
+
 }
 
 span#number {
@@ -101,14 +107,19 @@ span#number {
 span#minutes {
   float:right;
   color: grey;
+  padding-right: 3px;
+  padding-bottom: 10px;
+
 }
 
 span#en-route {
   color: #EC7450;
   padding-left: 50px;
+  padding-right: 3px;
+  padding-top: 8px;
   font-weight: bold;
   float: right;
-  padding-right: 3px;
+
 }
 
 span#warehouse {
@@ -132,6 +143,7 @@ span#due-date {
   font-weight: bold;
   display: block;
   float: left;
+  padding-bottom: 10px;
 }
 
 div.card-header {
