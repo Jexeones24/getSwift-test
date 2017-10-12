@@ -76,8 +76,30 @@ div.card-title {
   overflow: hidden;
 }
 
+span#driver-name {
+  color: #EC7450;
+  font-weight: bold;
+  float: left;
+}
+
+span#available-in {
+  color: black;
+  font-weight: bold;
+  float: right;
+  padding-right: 3px;
+}
+
+span#jobs {
+  
+  color: grey;
+}
 
 span#number {
+  color: grey;
+}
+
+span#minutes {
+  float:right;
   color: grey;
 }
 
